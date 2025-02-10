@@ -18,6 +18,12 @@ body {
     height: 35rem;
     border-radius: 10px;
 }
+h1{
+    font-weight: 700;
+}
+p {
+    font-size: 14px;
+}
 strong {
     color: hsl(75, 94%, 57%);;
 }
