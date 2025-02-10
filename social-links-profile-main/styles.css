@@ -1,0 +1,40 @@
+@import url(https://fonts.google.com/specimen/Inter);
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter, sans-serif;
+    color: white;
+    
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.container {
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 20rem;
+    height: 35rem;
+    border-radius: 10px;
+}
+strong {
+    color: hsl(75, 94%, 57%);;
+}
+img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.btn {
+    background-color: hsl(0, 0%, 20%);
+    margin: 20px 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: black;
+}
